@@ -1,16 +1,16 @@
-# importing required packages
+# Importing required packages
 from flask import Flask
 
-# create flask application
+# Create flask application
 app = Flask(__name__)
 
 
-# create home route
+# Create home route
 @app.route('/')
 def index():
     return 'welcome to project'
 
 
-# run flask application
+# Run flask application
 if __name__ == '__main__':
     app.run()
