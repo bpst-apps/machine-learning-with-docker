@@ -62,8 +62,8 @@ git
 
 To setup CI/CD pipeline in heroku we need 3 information
 
-1. HEROKU_EMAIL = bpst.web@gmail.com
-2. HEROKU_API_KEY = 4538b09c-a457-428a-b411-2868e3d79837
+1. HEROKU_EMAIL = <your heroku account registered email>
+2. HEROKU_API_KEY = <your heroku account API key>
 3. HEROKU_APP_NAME = ml-regression-app
 
 BUILD DOCKER IMAGE
