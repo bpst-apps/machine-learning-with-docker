@@ -93,3 +93,7 @@ To stop docker container
 docker stop <container_id>
 ```
 
+Install ipykernel
+```
+pip install ipykernel
+```
